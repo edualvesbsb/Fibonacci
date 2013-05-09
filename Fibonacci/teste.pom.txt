@@ -1,0 +1,64 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+project xmlns=httpmaven.apache.orgPOM4.0.0 xmlnsxsi=httpwww.w3.org2001XMLSchema-instance xsischemaLocation=httpmaven.apache.orgPOM4.0.0 httpmaven.apache.orgmaven-v4_0_0.xsd 
+modelVersion4.0.0modelVersion
+groupIdjunitgroupId
+artifactIdjunitartifactId
+version4.11version
+nameJUnitname
+urlhttpjunit.orgurl
+description
+JUnit is a regression testing framework written by Erich Gamma and Kent Beck. It is used by the developer who implements unit tests in Java.
+description
+organization
+nameJUnitname
+urlhttpwww.junit.orgurl
+organization
+mailingLists
+mailingList
+nameJUnit Mailing Listname
+postjunit@yahoogroups.compost
+archivehttptech.groups.yahoo.comgroupjunitarchive
+mailingList
+mailingLists
+licenses
+license
+nameCommon Public License Version 1.0name
+urlhttpwww.opensource.orglicensescpl1.0.txturl
+license
+licenses
+scm
+connectionscmgitgitgithub.comKentBeckjunit.gitconnection
+developerConnectionscmgitgit@github.comKentBeckjunit.gitdeveloperConnection
+urlhttpgithub.comKentBeckjunittreemasterurl
+scm
+developers
+developer
+iddsaffid
+nameDavid Saffname
+emaildavid@saff.netemail
+developer
+developers
+build
+plugins
+plugin
+artifactIdmaven-compiler-pluginartifactId
+configuration
+encodingISO-8859-1encoding
+source${jdk.version}source
+target${jdk.version}target
+configuration
+plugin
+plugins
+build
+dependencies
+dependency
+groupIdorg.hamcrestgroupId
+artifactIdhamcrest-coreartifactId
+version1.3version
+scopecompilescope
+dependency
+dependencies
+properties
+jdk.version1.5jdk.version
+properties
+project
