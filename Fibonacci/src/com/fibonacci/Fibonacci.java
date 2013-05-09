@@ -2,6 +2,12 @@ package com.fibonacci;
 
 import java.util.Scanner;
 
+/*
+ * Classe que representa o cálculo do número N da série de Fibonacci.
+ * 
+ * Há tanto a versão iterativa quanto a recursiva.
+ */
+
 public class Fibonacci {
 	
 	private int aux;
