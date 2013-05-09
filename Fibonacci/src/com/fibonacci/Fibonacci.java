@@ -5,7 +5,7 @@ import java.util.Scanner;
 /*
  * Classe que representa o cálculo do número N da série de Fibonacci.
  * 
- *  Há tanto a versão iterativa quanto a recursiva.
+ *  Há tanto a versão iterativa quanto a recursiva. Hmm...
  */
 
 public class Fibonacci {
