@@ -3,9 +3,9 @@ package com.fibonacci;
 import java.util.Scanner;
 
 /*
- * Classe que representa o cï¿½lculo do nï¿½mero N da sï¿½rie de Fibonacci.
+ * Classe que representa o cálculo do número N da série de Fibonacci.
  * 
- *  Hï¿½ tanto a versï¿½o iterativa quanto a recursiva. 
+ *  Há tanto a versão iterativa quanto a recursiva. Hmm...
  */
 
 public class Fibonacci {
@@ -15,7 +15,7 @@ public class Fibonacci {
 	private Scanner dados;
 	
 	
-	public int calculointerativo(int x) {
+	public int fibonacciInterativo(int x) {
 		for(i = 2; i != x; i++) {
 			if(x == 1 || x == 2){
 				return 1;
@@ -29,12 +29,12 @@ public class Fibonacci {
 		return x2;
 	}
 	
-	public int calculoRecursivo(int x) {
+	public int fibonacciRecursivo(int x) {
 		if(x == 1 || x == 2){
 			return 1;
 		}
 		else
-			return calculoRecursivo(x -1) + calculoRecursivo(x -2);
+			return fibonacciRecursivo(x -1) + fibonacciRecursivo(x -2);
 	}
 	
 	public int ler() {
@@ -48,8 +48,8 @@ public class Fibonacci {
 	}
 	
 	public void imprimir (int n){
-		System.out.println("Resultado Recursivo = " + calculoRecursivo(n));
-		System.out.println("Resultado Interativo = " + calculointerativo(n));
+		System.out.println("Resultado Recursivo = " + fibonacciRecursivo(n));
+		System.out.println("Resultado Interativo = " +fibonacciInterativo(n));
 	}
 	
 	
